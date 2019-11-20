@@ -9,13 +9,13 @@ def test_pods
 end
 
 target 'iOS-Example' do
-  platform :ios, '9.0'
+  platform :ios, '10.0'
   
   pod "AmazonS3RequestManager", :path => "../"
 end
 
 target 'iOS-Tests' do
-  platform :ios, '9.0'
+  platform :ios, '10.0'
   
   pod "AmazonS3RequestManager", :path => "../"
 

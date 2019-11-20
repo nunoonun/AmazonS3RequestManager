@@ -12,7 +12,7 @@ s.ios.frameworks = 'MobileCoreServices'
 s.tvos.frameworks = 'MobileCoreServices'
 s.osx.frameworks = 'CoreServices'
 
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '10.0'
 s.tvos.deployment_target = '10.1'
 s.osx.deployment_target = '10.10'
 
