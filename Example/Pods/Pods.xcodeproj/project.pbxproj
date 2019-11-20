@@ -891,15 +891,15 @@
 		06FEC1596048A4CE1CBCDB498E669BCF /* Quick-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Quick-macOS-Info.plist"; path = "../Quick-macOS/Quick-macOS-Info.plist"; sourceTree = "<group>"; };
 		073701575416516C0672436E75FFAB8F /* Alamofire-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-iOS-dummy.m"; sourceTree = "<group>"; };
 		09322FCB98165663AA2E5563B9532B95 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
-		0A36059C48584A7389C2ED7B81B78F6C /* AmazonS3RequestManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AmazonS3RequestManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0A36059C48584A7389C2ED7B81B78F6C /* AmazonS3RequestManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AmazonS3RequestManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0B28BE4EA9ACFF6AA7BC309B51E3A322 /* AmazonS3RequestManager-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "AmazonS3RequestManager-tvOS.xcconfig"; path = "../AmazonS3RequestManager-tvOS/AmazonS3RequestManager-tvOS.xcconfig"; sourceTree = "<group>"; };
 		0C645EEF9621F92010E12CF128F8225D /* Quick-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Quick-tvOS-prefix.pch"; path = "../Quick-tvOS/Quick-tvOS-prefix.pch"; sourceTree = "<group>"; };
 		0C6D58AC530DC3D5C4C29FBB96EC2D54 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
 		0CA084FA2CDDC9256CBECDD9EBBABCDC /* SWXMLHash-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SWXMLHash-macOS-dummy.m"; path = "../SWXMLHash-macOS/SWXMLHash-macOS-dummy.m"; sourceTree = "<group>"; };
 		0CA89F4BD91303405B29904879BF6893 /* LSHTTPStubURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSHTTPStubURLProtocol.m; path = Nocilla/Hooks/NSURLRequest/LSHTTPStubURLProtocol.m; sourceTree = "<group>"; };
-		0CCE9CB82B4F89C8E07ADCACFD3DB134 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = "Alamofire-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCE9CB82B4F89C8E07ADCACFD3DB134 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF0AB600DA84CD6914A279A1CF5391C /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
-		0D68F2DD4656E2DC0F28ED037671461F /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = "Nimble-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D68F2DD4656E2DC0F28ED037671461F /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1601518C233C257F7A462963EA0B59 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		0F5DA449034CC49426340BA6FC8D5AC2 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
 		0F958979151E60C4ACF3127D9C0EB0BD /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
@@ -908,7 +908,7 @@
 		1033BFE2CB71AAA448F4EBD3594EAD07 /* Pods-iOS-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-Example-dummy.m"; sourceTree = "<group>"; };
 		119CEFDEBEDB49157C5132B4A834289D /* Pods-OSX-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OSX-Tests-dummy.m"; sourceTree = "<group>"; };
 		11B324ABD11CD20CE00F86EEA4F49297 /* SWXMLHash-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SWXMLHash-macOS.xcconfig"; path = "../SWXMLHash-macOS/SWXMLHash-macOS.xcconfig"; sourceTree = "<group>"; };
-		11F1F0F6C9791013412D6E9FFB937F29 /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
+		11F1F0F6C9791013412D6E9FFB937F29 /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
 		12934E25E9FE3B5EB0D363AB0114E6AB /* LSNocilla.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSNocilla.h; path = Nocilla/LSNocilla.h; sourceTree = "<group>"; };
 		131B945AFFB27E1F71A5D0DD0AEDF0A5 /* Pods-iOS-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-Example-umbrella.h"; sourceTree = "<group>"; };
 		13454072485FD6ECF903B8609EF8DBA8 /* LSMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSMatcher.m; path = Nocilla/Matchers/LSMatcher.m; sourceTree = "<group>"; };
@@ -940,7 +940,7 @@
 		25BEFA14DE56C9618A1173EE8120D40F /* Pods-iOS-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		25C0DF4176377562CB7BD1D5EFC7BE63 /* Pods-OSX-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSX-Example-frameworks.sh"; sourceTree = "<group>"; };
 		26616A5C0E4AB7C282E2F0C32A44A92A /* AmazonS3RequestManager-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "AmazonS3RequestManager-macOS.modulemap"; path = "../AmazonS3RequestManager-macOS/AmazonS3RequestManager-macOS.modulemap"; sourceTree = "<group>"; };
-		289E21AE311695CB49B911BE5A7C8645 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = "Quick-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		289E21AE311695CB49B911BE5A7C8645 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A137083C2DDC530396598C345DF2C54 /* Nimble-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Nimble-macOS-prefix.pch"; path = "../Nimble-macOS/Nimble-macOS-prefix.pch"; sourceTree = "<group>"; };
 		2B0CFBEBB536ABAD5ADECC29E4E6CAEB /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickSpecBase/include/QuickSpecBase.h; sourceTree = "<group>"; };
 		2B397409BBCDE0D472CE760E43F62A67 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
@@ -1006,17 +1006,17 @@
 		54C1ABFD8E2A7C24DE4F742977511E93 /* Quick-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Quick-macOS-umbrella.h"; path = "../Quick-macOS/Quick-macOS-umbrella.h"; sourceTree = "<group>"; };
 		553DB13E5B16B1247874B18D46C48283 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		560401B8F4395777CDBD4BA65A5BEC9F /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		5726FB6FA5BB88E9BBE22B02DFB6A3A7 /* Nocilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nocilla.framework; path = "Nocilla-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5726FB6FA5BB88E9BBE22B02DFB6A3A7 /* Nocilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nocilla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57350BA34332CB86369125DC97AF1BB9 /* Region.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Region.swift; path = Source/Region.swift; sourceTree = "<group>"; };
 		5741B1731DD13CD10CE3FDB8AA5AF3E2 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		574E66169140ABF0083A919237C6D7CC /* LSHTTPClientHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSHTTPClientHook.m; path = Nocilla/Hooks/LSHTTPClientHook.m; sourceTree = "<group>"; };
 		5771B64B0B2623E238F2EE1C9ACB171D /* NSRegularExpression+Matcheable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRegularExpression+Matcheable.m"; path = "Nocilla/Matchers/NSRegularExpression+Matcheable.m"; sourceTree = "<group>"; };
-		582D6170CF805880B0ECC17F54E2C4DC /* Pods_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_Tests.framework; path = "Pods-iOS-Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5920F3906113E7E38A428B87E0DCF751 /* Pods_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_Example.framework; path = "Pods-iOS-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582D6170CF805880B0ECC17F54E2C4DC /* Pods_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5920F3906113E7E38A428B87E0DCF751 /* Pods_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A25388676CA2CD3AFEF7EE27E7298BA /* Pods-OSX-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSX-Example-umbrella.h"; sourceTree = "<group>"; };
 		5A85F1F4783A39C9074B103CFC649B7E /* ASIHTTPRequestStub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequestStub.m; path = Nocilla/Hooks/ASIHTTPRequest/ASIHTTPRequestStub.m; sourceTree = "<group>"; };
 		5A867365AEEB9B5E0407B24AF024F162 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
-		5ACEF91984C87014AA6F1C26FB05477E /* AmazonS3RequestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AmazonS3RequestManager.framework; path = "AmazonS3RequestManager-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACEF91984C87014AA6F1C26FB05477E /* AmazonS3RequestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmazonS3RequestManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE0BB297FAC29967B1DE0628E46C3F7 /* Pods-iOS-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Example.release.xcconfig"; sourceTree = "<group>"; };
 		5B228206CBAF86B3507BE4B3DAEE9672 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
 		5BA52219977B2EDBECE7DF60BAE09859 /* LSStubResponseDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSStubResponseDSL.m; path = Nocilla/DSL/LSStubResponseDSL.m; sourceTree = "<group>"; };
@@ -1039,7 +1039,7 @@
 		656E9EC474D03C7E66A42E76EF6F6809 /* Nocilla-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Nocilla-iOS-Info.plist"; sourceTree = "<group>"; };
 		6638C4D994C26ABE6C7FAE729DFF7D0E /* LSStubRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSStubRequest.h; path = Nocilla/Stubs/LSStubRequest.h; sourceTree = "<group>"; };
 		6639ABCE9E41C59986B3B1B8A6EC1DA6 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
-		67101BD5F17CA7130C0F86DC963C1BB3 /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWXMLHash.framework; path = "SWXMLHash-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67101BD5F17CA7130C0F86DC963C1BB3 /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6864355DB8B926A078EBBD4227D3246A /* Alamofire-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-iOS-umbrella.h"; sourceTree = "<group>"; };
 		69470F51B23ED7DA597E3FC07B071128 /* AmazonS3RequestManager-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "AmazonS3RequestManager-macOS-Info.plist"; path = "../AmazonS3RequestManager-macOS/AmazonS3RequestManager-macOS-Info.plist"; sourceTree = "<group>"; };
 		69C434AE0A03F997478C13DE0043F7F0 /* LSStubRequestDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSStubRequestDSL.m; path = Nocilla/DSL/LSStubRequestDSL.m; sourceTree = "<group>"; };
@@ -1064,7 +1064,7 @@
 		7303B64033BFD11F63923E74D03B6760 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		7382F46D1B7C06020A71E3A4D5D4B6C7 /* Pods-iOS-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7398DBFE807EE8DED7D9E2B14A38F785 /* Nimble-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Nimble-iOS-Info.plist"; sourceTree = "<group>"; };
-		73F566CFB5F21F61AC2FA68F08AA0B2D /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = "Quick-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F566CFB5F21F61AC2FA68F08AA0B2D /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7439A4A30C256A63585E6BD35DEA1C0C /* Pods-OSX-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSX-Tests-umbrella.h"; sourceTree = "<group>"; };
 		76B9ED3DA917E48D915518176AC09203 /* Nimble-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Nimble-macOS.modulemap"; path = "../Nimble-macOS/Nimble-macOS.modulemap"; sourceTree = "<group>"; };
 		7732148D935B5CD00A1A380474431263 /* LSStubResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSStubResponse.m; path = Nocilla/Stubs/LSStubResponse.m; sourceTree = "<group>"; };
@@ -1074,7 +1074,7 @@
 		7A5B207358C9E40EF7449B0C1DDF763D /* Pods-OSX-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OSX-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BFF47AA8044B3A687D8E4D5DFBF1B8A /* NSData+Matcheable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Matcheable.m"; path = "Nocilla/Matchers/NSData+Matcheable.m"; sourceTree = "<group>"; };
 		7D313A8A6447E21DD23A443AA2402A9C /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
-		7D384ECFAAE59EC3AEF8237E0B853438 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = "Alamofire-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D384ECFAAE59EC3AEF8237E0B853438 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBA94254431BFCB4A60D6CC38826824 /* LSASIHTTPRequestAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSASIHTTPRequestAdapter.m; path = Nocilla/Hooks/ASIHTTPRequest/LSASIHTTPRequestAdapter.m; sourceTree = "<group>"; };
 		7EEDA648B38390E20588A465E2B8E7C3 /* ASIHTTPRequestStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestStub.h; path = Nocilla/Hooks/ASIHTTPRequest/ASIHTTPRequestStub.h; sourceTree = "<group>"; };
 		7FCA3A11317D6EC19B52383E51770BA5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -1082,7 +1082,7 @@
 		829213AFB73B746DD752379C7AEFD0DE /* Quick-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Quick-macOS.xcconfig"; path = "../Quick-macOS/Quick-macOS.xcconfig"; sourceTree = "<group>"; };
 		82A7FC2FC739DF9F290390CD64E01D2D /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
 		82CD2FB3BFEA88563F66878C35CE84BC /* Nocilla-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Nocilla-tvOS.modulemap"; path = "../Nocilla-tvOS/Nocilla-tvOS.modulemap"; sourceTree = "<group>"; };
-		8360E16C8B6C306250398941E51ED0FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8360E16C8B6C306250398941E51ED0FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		83C1B14176F6F6F1FDDC2C7D05CAF6C9 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		8481C6372AB10125B68583472417CAC2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CC2D30FE7D440A9876F0F24B10B926 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
@@ -1115,11 +1115,11 @@
 		9465AAD59040DD752064401F170335B3 /* NSString+Nocilla.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Nocilla.h"; path = "Nocilla/Categories/NSString+Nocilla.h"; sourceTree = "<group>"; };
 		95204EB0ABC40E492C1AE8E57C1EDE4D /* Nocilla-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Nocilla-tvOS-prefix.pch"; path = "../Nocilla-tvOS/Nocilla-tvOS-prefix.pch"; sourceTree = "<group>"; };
 		9522D67B7CE2165337B10EE79067DD0C /* Alamofire-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Alamofire-macOS.modulemap"; path = "../Alamofire-macOS/Alamofire-macOS.modulemap"; sourceTree = "<group>"; };
-		95ABFE19BB6C09A4B346BCDE7967E6EA /* Nocilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nocilla.framework; path = "Nocilla-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95ABFE19BB6C09A4B346BCDE7967E6EA /* Nocilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nocilla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9613287C5D9D436FA2B0C0DFF5F9C512 /* Pods-iOS-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		96556EB2C3249B2310CC29CECDFA8F00 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		9668A756F6BF3BE54B0128CDEB83475D /* Pods-TVOS-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVOS-Tests-Info.plist"; sourceTree = "<group>"; };
-		966AA42878212207687E9A2A4DBCD618 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = "Alamofire-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		966AA42878212207687E9A2A4DBCD618 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97222C624AFB3A3A53CD43F9BB6F5AEF /* LSNSURLHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSNSURLHook.h; path = Nocilla/Hooks/NSURLRequest/LSNSURLHook.h; sourceTree = "<group>"; };
 		97792D114FD79E0B6187C4FCC60FB227 /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Matchers/MatcherFunc.swift; sourceTree = "<group>"; };
 		97C81CE3CA9EAFF115BFB6B67FE70564 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -1131,7 +1131,7 @@
 		9C6733B4A3B71E8E83B92BA561343247 /* Pods-TVOS-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVOS-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9C8B795E4DC5A81EA6B2CB462246EBA2 /* Alamofire-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-iOS-Info.plist"; sourceTree = "<group>"; };
 		9D16CEEA2F297E0BBA85A11B31B55AE8 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D97F8649601DBEC23E71D7DF6B06464 /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
 		9E04717E134A20D677E24AB007F3F87D /* AmazonS3SignatureHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AmazonS3SignatureHelpers.m; path = Source/AmazonS3SignatureHelpers.m; sourceTree = "<group>"; };
 		9EAC71712F297A98558EC3F3DEDC0C5E /* Quick-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-iOS-prefix.pch"; sourceTree = "<group>"; };
@@ -1160,7 +1160,7 @@
 		B480C1D0D1543E918B2D89DADA72FB6A /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
 		B4A7E3FEB8C5AE5C095D0AEB82F37CE4 /* Pods-iOS-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-Tests-umbrella.h"; sourceTree = "<group>"; };
 		B64D84570FB61C761CE00843A6B492BB /* Nimble-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Nimble-tvOS-Info.plist"; path = "../Nimble-tvOS/Nimble-tvOS-Info.plist"; sourceTree = "<group>"; };
-		B75EA40325160D7FA02FF0B2ECC85973 /* Pods_TVOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TVOS_Tests.framework; path = "Pods-TVOS-Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75EA40325160D7FA02FF0B2ECC85973 /* Pods_TVOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8290583D438CF84F2090FE77994E8C7 /* AmazonS3RequestManager-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AmazonS3RequestManager-macOS-umbrella.h"; path = "../AmazonS3RequestManager-macOS/AmazonS3RequestManager-macOS-umbrella.h"; sourceTree = "<group>"; };
 		B8E8624F7FD24008C7685C1E5107DD37 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
 		B8F020E1D59FD5816C5229CBCBE2632C /* Alamofire-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-tvOS-umbrella.h"; path = "../Alamofire-tvOS/Alamofire-tvOS-umbrella.h"; sourceTree = "<group>"; };
@@ -1179,7 +1179,7 @@
 		BE827FC9912D0B575C0D49730D6F7173 /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
 		BFCDCA5F64F4363ECC8C6704BEA5A277 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
 		C115D86B77CF4366DD9BF06AC65FE194 /* NSData+Nocilla.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Nocilla.h"; path = "Nocilla/Categories/NSData+Nocilla.h"; sourceTree = "<group>"; };
-		C2FCA34B3522D944BAA3DC6A57D99686 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = "Nimble-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FCA34B3522D944BAA3DC6A57D99686 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C349C4216AE80EFEFCE2FDF070ACB27D /* Nimble-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Nimble-macOS-dummy.m"; path = "../Nimble-macOS/Nimble-macOS-dummy.m"; sourceTree = "<group>"; };
 		C3A26BD35EDFAF83207BC76DD567A6A0 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		C41AF3B3822D9BF5EA7CFC28425164BB /* Quick-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Quick-macOS-dummy.m"; path = "../Quick-macOS/Quick-macOS-dummy.m"; sourceTree = "<group>"; };
@@ -1190,9 +1190,9 @@
 		C63513BB5B3FCCB8F4E5286F4EA37E15 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		C6F7C12751150DBB0463C9BAB84D2822 /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
 		C8A63509B1128E7FF573CC1FB17BCAE8 /* Nimble-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Nimble-tvOS-dummy.m"; path = "../Nimble-tvOS/Nimble-tvOS-dummy.m"; sourceTree = "<group>"; };
-		C8E0F49D3F9CF6715FD8D2D98638F20F /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = "Quick-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAA3F96C04F1A3DE18FC09B3B830B1BC /* AmazonS3RequestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AmazonS3RequestManager.framework; path = "AmazonS3RequestManager-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB0E8A83F6F7FE5A7AF0A32CECC281E2 /* Pods_OSX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OSX_Tests.framework; path = "Pods-OSX-Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E0F49D3F9CF6715FD8D2D98638F20F /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA3F96C04F1A3DE18FC09B3B830B1BC /* AmazonS3RequestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmazonS3RequestManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0E8A83F6F7FE5A7AF0A32CECC281E2 /* Pods_OSX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSX_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA335A0F076600FC92B115F0A08AEA7 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		CC9DC90F2F878CEDC4FB335F8F39C3B8 /* SWXMLHash-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SWXMLHash-tvOS-umbrella.h"; path = "../SWXMLHash-tvOS/SWXMLHash-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		CDD08E555D3BDF9ABA9F5626FA1D643F /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
@@ -1223,8 +1223,8 @@
 		DF133294A3F227B1D0F116D0EA3A4412 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Matchers/Async.swift; sourceTree = "<group>"; };
 		DF5F79988A9F41A82D59B753FF1EE55B /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
 		E0DFB43D98D3AB534EE7465EBF34F433 /* LSNSURLSessionHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSNSURLSessionHook.h; path = Nocilla/Hooks/NSURLSession/LSNSURLSessionHook.h; sourceTree = "<group>"; };
-		E0F61087B1B6FE9A0E5206CFE53DE764 /* Pods_TVOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TVOS_Example.framework; path = "Pods-TVOS-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E135D09C2211E0387FC43A2D6DC72CB7 /* Pods_OSX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OSX_Example.framework; path = "Pods-OSX-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F61087B1B6FE9A0E5206CFE53DE764 /* Pods_TVOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E135D09C2211E0387FC43A2D6DC72CB7 /* Pods_OSX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E160533CF455E4F4C16CEE7FE0066AC8 /* Pods-iOS-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E282A1E7E35CDA9E74A20056BD17FE02 /* Pods-TVOS-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVOS-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E28799A46791B59551262FE3EC57C1D5 /* Pods-TVOS-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVOS-Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1253,27 +1253,27 @@
 		F2BF7E7C3F2EB1BC26961A565F9E2710 /* QuickConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickConfiguration.swift; path = Sources/Quick/Configuration/QuickConfiguration.swift; sourceTree = "<group>"; };
 		F334EF8BDF98F1E713ED27777D97B5E8 /* AmazonS3RequestManager-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "AmazonS3RequestManager-tvOS-Info.plist"; path = "../AmazonS3RequestManager-tvOS/AmazonS3RequestManager-tvOS-Info.plist"; sourceTree = "<group>"; };
 		F46D255DEA33A1DF5C66F034EF12A28F /* Nocilla-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Nocilla-macOS-dummy.m"; path = "../Nocilla-macOS/Nocilla-macOS-dummy.m"; sourceTree = "<group>"; };
-		F4F348027847147F83A6E999B942456C /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = "Nimble-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F348027847147F83A6E999B942456C /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DC7420E34730A2AE4C036A11C1B72F /* Nocilla-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nocilla-iOS-umbrella.h"; sourceTree = "<group>"; };
-		F665BA3C11C88CDE6DB63F1D8D355DDC /* Nocilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nocilla.framework; path = "Nocilla-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F665BA3C11C88CDE6DB63F1D8D355DDC /* Nocilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nocilla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C1981173AF7AD4BDB1801502C39879 /* SWXMLHash-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SWXMLHash-iOS-Info.plist"; sourceTree = "<group>"; };
 		F783EF28EB0174C79F4052729ABDFDAD /* Quick-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-iOS-dummy.m"; sourceTree = "<group>"; };
 		F893962B9A6E4074E4D58F3711BCCE3F /* AmazonS3RequestManager-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "AmazonS3RequestManager-iOS.modulemap"; sourceTree = "<group>"; };
 		F8BB74B8A87E19587907D983EC7CD9C6 /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
 		F91FBADC520B769BAAAC4A35CC7BDAC6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		F97F23492DF52F4063F67539E64A07AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F97F23492DF52F4063F67539E64A07AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F9D39D3A39A4734E4598CF260B0258EA /* Nimble-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Nimble-tvOS-prefix.pch"; path = "../Nimble-tvOS/Nimble-tvOS-prefix.pch"; sourceTree = "<group>"; };
 		FB1008C543B67E39A8DCAE1575C9B382 /* AmazonS3RequestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AmazonS3RequestManager.h; path = Source/AmazonS3RequestManager.h; sourceTree = "<group>"; };
 		FB9B48DC2293369FBF121F235E15F5F3 /* Pods-TVOS-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVOS-Tests-frameworks.sh"; sourceTree = "<group>"; };
 		FC555738B3613F1FC112D8869244B14C /* Quick-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Quick-tvOS-Info.plist"; path = "../Quick-tvOS/Quick-tvOS-Info.plist"; sourceTree = "<group>"; };
 		FCF5C19E56892F963ECFAC7F89AA74B9 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		FD17F3B588B1FB5A683529AA8C472D59 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
-		FD2DBD9B93B10FE414FDA9C0893C1B29 /* AmazonS3RequestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AmazonS3RequestManager.framework; path = "AmazonS3RequestManager-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2DBD9B93B10FE414FDA9C0893C1B29 /* AmazonS3RequestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmazonS3RequestManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA68C0CA2252F44AFC40BB33E699D12 /* Nimble-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Nimble-macOS-umbrella.h"; path = "../Nimble-macOS/Nimble-macOS-umbrella.h"; sourceTree = "<group>"; };
 		FE9E2E59F4961791D365839FBA98CD4A /* LSRegexMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSRegexMatcher.h; path = Nocilla/Matchers/LSRegexMatcher.h; sourceTree = "<group>"; };
 		FF18C9E7AAD6B3F3D9F9F53172F0705B /* LSStubRequestDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSStubRequestDSL.h; path = Nocilla/DSL/LSStubRequestDSL.h; sourceTree = "<group>"; };
-		FF370FA30DFE29B3BA7F7786C303767D /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWXMLHash.framework; path = "SWXMLHash-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF9EBC8964215C8795A95155DD3F96F8 /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWXMLHash.framework; path = "SWXMLHash-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF370FA30DFE29B3BA7F7786C303767D /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9EBC8964215C8795A95155DD3F96F8 /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFA6575579D32ED16CA5B90A2659BDF /* SWXMLHash-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SWXMLHash-macOS.modulemap"; path = "../SWXMLHash-macOS/SWXMLHash-macOS.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1510,7 +1510,6 @@
 				162C237FCCA7D41E2A4A036FE1DB5540 /* Validation.swift */,
 				A6E9F2BA40B52FFFB44B8AE325D1EFAB /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1586,7 +1585,6 @@
 				D4D101185F20F18AF9C4DB176718A40D /* NSURLRequest+LSHTTPRequest.m */,
 				CAFFBD24593E8DBF0FEE48CFF6854A15 /* Support Files */,
 			);
-			name = Nocilla;
 			path = Nocilla;
 			sourceTree = "<group>";
 		};
@@ -1682,7 +1680,6 @@
 				2C52C49DCC8E375F4A617A903D8CDBF6 /* XCTestSuite+QuickTestSuiteBuilder.m */,
 				C3BBD360910E3B696A80778244F27A82 /* Support Files */,
 			);
-			name = Quick;
 			path = Quick;
 			sourceTree = "<group>";
 		};
@@ -1810,7 +1807,6 @@
 				3AC19485E66155AF5189FC7B1240648C /* XCTestObservationCenter+Register.m */,
 				4EAC5C7CDD30F47CF4FF20ECD81300C4 /* Support Files */,
 			);
-			name = Nimble;
 			path = Nimble;
 			sourceTree = "<group>";
 		};
@@ -1904,7 +1900,6 @@
 				6F3AE3359E0165E2C5FE158CF7B8B760 /* XMLIndexer+XMLIndexerDeserializable.swift */,
 				B35089401C8564C82A058074DD36F08F /* Support Files */,
 			);
-			name = SWXMLHash;
 			path = SWXMLHash;
 			sourceTree = "<group>";
 		};
@@ -2923,7 +2918,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1120;
+				TargetAttributes = {
+					6D3680CF4CA3255B2DE5831A0C1F1F9F = {
+						LastSwiftMigration = 1120;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -4053,7 +4053,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8744A21867309AB9FBADAAF0283CD36C /* Alamofire-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4088,7 +4087,6 @@
 			baseConfigurationReference = 655CE8D70DDF4400B2FD39324BC4B1FD /* Pods-OSX-Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4217,7 +4215,6 @@
 			baseConfigurationReference = 425B68A57CB47C679A01BD47D54FD046 /* Pods-OSX-Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4252,7 +4249,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 829213AFB73B746DD752379C7AEFD0DE /* Quick-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4286,7 +4282,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 49A9FDA3D1B20BB36EA8A173DCDBEF64 /* Nimble-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4319,7 +4314,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8744A21867309AB9FBADAAF0283CD36C /* Alamofire-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4385,7 +4379,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 829213AFB73B746DD752379C7AEFD0DE /* Quick-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4679,7 +4672,6 @@
 			baseConfigurationReference = 7102EF29E79ADA5B93B79541CE1FB176 /* Pods-OSX-Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4744,7 +4736,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D72F55DEFCA448859797A6CC7B7C21FD /* Nocilla-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4921,8 +4912,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
@@ -4965,7 +4955,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 11B324ABD11CD20CE00F86EEA4F49297 /* SWXMLHash-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5054,7 +5043,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -5067,7 +5056,6 @@
 			baseConfigurationReference = 20710F4B291268D929C7391E553641F5 /* Pods-OSX-Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -5124,7 +5112,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -5165,7 +5153,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B01D3218A2C416C96776888535E5D8B /* AmazonS3RequestManager-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -5234,7 +5221,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D72F55DEFCA448859797A6CC7B7C21FD /* Nocilla-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5461,7 +5447,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 11B324ABD11CD20CE00F86EEA4F49297 /* SWXMLHash-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5524,7 +5509,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B01D3218A2C416C96776888535E5D8B /* AmazonS3RequestManager-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -5624,7 +5608,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 49A9FDA3D1B20BB36EA8A173DCDBEF64 /* Nimble-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2EE038F5397038B4351149E90BDCCDF5"
+               BlueprintIdentifier = "6D3680CF4CA3255B2DE5831A0C1F1F9F"
                BuildableName = "AmazonS3RequestManager.framework"
                BlueprintName = "AmazonS3RequestManager-iOS"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -43,7 +43,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2EE038F5397038B4351149E90BDCCDF5"
+            BlueprintIdentifier = "6D3680CF4CA3255B2DE5831A0C1F1F9F"
             BuildableName = "AmazonS3RequestManager.framework"
             BlueprintName = "AmazonS3RequestManager-iOS"
             ReferencedContainer = "container:Pods.xcodeproj">
