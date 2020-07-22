@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'AmazonS3RequestManager'
-s.version = '1.2.0'
+s.version = '1.2.1'
 s.license = 'MIT'
 s.summary = 'A Alamofire based request manager that serializes requests to the AWS S3 (Amazon Simple Storage Solution). Based on AFAmazonS3Manager'
 s.homepage = 'https://github.com/AnthonyMDev/AmazonS3RequestManager'
@@ -20,6 +20,6 @@ s.source_files = 'Source/*.{h,m,swift}'
 
 s.requires_arc = true
 
-s.dependency 'Alamofire', '~> 4.5'
-s.dependency 'SWXMLHash', '~> 4.2'
+s.dependency 'Alamofire', '~> 5'
+s.dependency 'SWXMLHash', '~> 5'
 end
