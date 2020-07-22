@@ -187,10 +187,8 @@ public enum ACLGrantee: Hashable {
         }
     }
     
-    public var hashValue: Int {
-        get {
-            return requestHeaderFieldValue.hashValue
-        }
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(requestHeaderFieldValue.hashValue)
     }
 }
 
@@ -252,10 +250,8 @@ public struct ACLPermissionGrant: ACL, Hashable {
         return strings
     }
     
-    public var hashValue: Int {
-        get {
-            return permission.hashValue
-        }
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(permission.hashValue)
     }
 }
 
