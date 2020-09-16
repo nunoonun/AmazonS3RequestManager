@@ -14,7 +14,7 @@ s.osx.frameworks = 'CoreServices'
 
 s.ios.deployment_target = '10.0'
 s.tvos.deployment_target = '10.1'
-s.osx.deployment_target = '10.10'
+s.osx.deployment_target = '10.12'
 
 s.source_files = 'Source/*.{h,m,swift}'
 

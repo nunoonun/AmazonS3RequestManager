@@ -81,8 +81,8 @@ class AmazonS3ResponseObjectTests: XCTestCase {
         let data = xml.data(using: String.Encoding.utf8)
         
         // when
-        let result = DataRequest.XMLResponseSerializer().serializeResponse(nil, nil, data, nil)
-        let xmlIndexer = result.value!
+        let result = try! XMLResponseSerializer().serialize(request: nil, response: nil, data: data, error: nil)
+        let xmlIndexer = result
         let bucketContents = S3BucketObjectList(response:HTTPURLResponse(), representation:xmlIndexer)!
         let s3File = bucketContents.files.first!
         

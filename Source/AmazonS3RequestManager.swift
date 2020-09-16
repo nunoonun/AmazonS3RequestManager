@@ -69,7 +69,7 @@ open class AmazonS3RequestManager {
      
      :note: This defaults to the shared instance of `Manager` used by top-level Alamofire requests.
      */
-    open var requestManager: SessionManager = SessionManager.default
+    open var requestManager: Session = Session.default
     
     // MARK: - Initialization
     
@@ -103,7 +103,7 @@ open class AmazonS3RequestManager {
      */
     open func get(at path: String) -> DataRequest {
         return requestManager.request(requestSerializer.amazonURLRequest(method: .get, path: path))
-            .responseS3Data { (response) -> Void in }
+            .response(responseSerializer: S3DataResponseSerializer()) { (response) in }
     }
     
     /**
@@ -118,7 +118,7 @@ open class AmazonS3RequestManager {
      
      - returns: A download request for the object
      */
-    open func download(at path: String, to: @escaping DownloadRequest.DownloadFileDestination) -> DownloadRequest {
+    open func download(at path: String, to: @escaping DownloadRequest.Destination) -> DownloadRequest {
         let downloadRequest = requestSerializer.amazonURLRequest(method: .get, path: path)
         return requestManager.download(downloadRequest, to: to)
     }

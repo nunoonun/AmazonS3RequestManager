@@ -23,14 +23,14 @@ target 'iOS-Tests' do
 end
 
 target 'OSX-Example' do
-  platform :osx, '10.11'
+  platform :osx, '10.12'
   
   pod "AmazonS3RequestManager", :path => "../"
 
 end
 
 target 'OSX-Tests' do
-  platform :osx, '10.11'
+  platform :osx, '10.12'
   
   pod "AmazonS3RequestManager", :path => "../"
 

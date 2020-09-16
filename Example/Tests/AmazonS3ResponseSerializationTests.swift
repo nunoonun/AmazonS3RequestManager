@@ -35,13 +35,15 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
     
     func test__XMLResponseSerializer__givenNilData_returnsFailure() {
         // given
-        let expectedErrorCode = AFError.responseSerializationFailed(reason: .inputDataNil)._code
+        let expectedErrorCode = AFError.responseSerializationFailed(reason: .inputDataNilOrZeroLength)._code
         
         // when
-        let result = DataRequest.XMLResponseSerializer().serializeResponse(nil, nil, nil, nil)
-        
-        // then
-        expect(result.error?._code).to(equal(expectedErrorCode))
+        do {
+            let _ = try XMLResponseSerializer().serialize(request: nil, response: nil, data: nil, error: nil)
+        } catch let error {
+            // then
+            expect(error._code).to(equal(expectedErrorCode))
+        }
     }
     
     func test__XMLResponseSerializer__givenXMLString_returnsXMLIndexer() {
@@ -53,11 +55,10 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         let data = xml.data(using: String.Encoding.utf8)
         
         // when
-        let result = DataRequest.XMLResponseSerializer().serializeResponse(nil, nil, data, nil)
-        let testContent = result.value!["XMLData"]["XMLElement"].element?.text
+        let result = try! XMLResponseSerializer().serialize(request: nil, response: nil, data: data, error: nil)
+        let testContent = result["XMLData"]["XMLElement"].element?.text
         
         // then
-        expect(result.error).to(beNil())
         expect(testContent).to(equal("test"))
     }
     
@@ -70,22 +71,26 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         let data = Data(base64Encoded: "", options: .ignoreUnknownCharacters)
         let expectedError = NSError(domain: "test", code: 0, userInfo: nil)
         
-        // when
-        let result = DataRequest.s3DataResponseSerializer().serializeResponse(nil, nil, data, expectedError)
-        
-        // then
-        expect(result.error as NSError?).to(equal(expectedError))
+        do {
+            // when
+            let _ = try S3DataResponseSerializer().serialize(request: nil, response: nil, data: data, error: expectedError)
+        } catch let error {
+            // then
+            expect(error as NSError?).to(equal(expectedError))
+        }
     }
     
     func test__s3DataResponseSerializer__givenNoData_returnsError() {
         // given
-        let expectedError = AFError.responseSerializationFailed(reason: .inputDataNil)
+        let expectedError = AFError.responseSerializationFailed(reason: .inputDataNilOrZeroLength)
         
-        // when
-        let result = DataRequest.s3DataResponseSerializer().serializeResponse(nil, nil, nil, expectedError)
-        
-        // then
-        expect(result.error?._code).to(equal(expectedError._code))
+        do {
+            // when
+            let _ = try S3DataResponseSerializer().serialize(request: nil, response: nil, data: nil, error: expectedError)
+        } catch let error {
+            // then
+            expect(error._code).to(equal(expectedError._code))
+        }
     }
     
     func test__s3DataResponseSerializer__givenNoError_returnsSuccessWithData() {
@@ -93,10 +98,10 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         let data = Data(base64Encoded: "Test Data", options: .ignoreUnknownCharacters)
         
         // when
-        let result = DataRequest.s3DataResponseSerializer().serializeResponse(nil, nil, data, nil)
+        let result = try! S3DataResponseSerializer().serialize(request: nil, response: nil, data: data, error: nil)
         
         // then
-        expect(result.value!).to(beIdenticalTo(data))
+        expect(result).to(beIdenticalTo(data))
     }
     
     func test__s3DataResponseSerializer__givenEmptyStringResponse_returnsSuccessWithData() {
@@ -104,10 +109,10 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         let data = Data(base64Encoded: "", options: .ignoreUnknownCharacters)
         
         // when
-        let result = DataRequest.s3DataResponseSerializer().serializeResponse(nil, nil, data, nil)
+        let result = try! S3DataResponseSerializer().serialize(request: nil, response: nil, data: data, error: nil)
         
         // then
-        expect(result.value!).to(beIdenticalTo(data))
+        expect(result).to(beIdenticalTo(data))
     }
     
     func test__s3DataResponseSerializer__givenXMLErrorStringResponse_returnsError() {
@@ -124,11 +129,13 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         
         let data = xmlError.data(using: String.Encoding.utf8)
         
-        // when
-        let result = DataRequest.s3DataResponseSerializer().serializeResponse(nil, nil, data, nil)
-        
-        // then
-        expect(result.error as NSError?).to(equal(expectedError))
+        do {
+            // when
+            let _ = try S3DataResponseSerializer().serialize(request: nil, response: nil, data: data, error: nil)
+        } catch let error {
+            // then
+            expect(error as NSError?).to(equal(expectedError))
+        }
     }
     
     func test__s3DataResponseSerializer__givenXMLErrorStringResponseAndPreviousError_returnsXMLErrorError() {
@@ -146,11 +153,13 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         
         let data = xmlError.data(using: String.Encoding.utf8)
         
-        // when
-        let result = DataRequest.s3DataResponseSerializer().serializeResponse(nil, nil, data, previousError)
-        
-        // then
-        expect(result.error as NSError?).to(equal(expectedError))
+        do {
+            // when
+            let _ =  try S3DataResponseSerializer().serialize(request: nil, response: nil, data: data, error: previousError)
+        } catch let error {
+            // then
+            expect(error as NSError?).to(equal(expectedError))
+        }
     }
     
     /*
@@ -166,7 +175,7 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         
         // when
         let result: Result<MockResponseObject> = DataRequest
-            .s3ObjectResponseSerializer().serializeResponse(nil, HTTPURLResponse(), data, expectedError)
+            .s3ObjectResponseSerializer().serialize(nil, HTTPURLResponse(), data, expectedError)
         
         // then
         expect(result.error as NSError?).to(equal(expectedError))
@@ -179,7 +188,7 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         
         // when
         let result: Result<MockResponseObject> = DataRequest
-            .s3ObjectResponseSerializer().serializeResponse(nil, HTTPURLResponse(), data, nil)
+            .s3ObjectResponseSerializer().serialize(nil, HTTPURLResponse(), data, nil)
         
         // then
         expect(result.value).toNot(beNil())
@@ -187,13 +196,13 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
     
     func test__s3ObjectResponseSerializer__givenXMLRepresentation_responseObjectFailsToSerialize__returnsError() {
         // given
-        let expectedErrorCode = AFError.responseSerializationFailed(reason: .inputDataNil)._code
+        let expectedErrorCode = AFError.responseSerializationFailed(reason: .inputDataNilOrZeroLength)._code
         let xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><fail>"
         let data = xml.data(using: String.Encoding.utf8)
         
         // when
         let result: Result<MockResponseObject> = DataRequest
-            .s3ObjectResponseSerializer().serializeResponse(nil, HTTPURLResponse(), data, nil)
+            .s3ObjectResponseSerializer().serialize(nil, HTTPURLResponse(), data, nil)
         
         // then
         expect(result.error?._code).to(equal(expectedErrorCode))
@@ -215,7 +224,7 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         
         // when
         let result: Result<MockResponseObject> = DataRequest
-            .s3ObjectResponseSerializer().serializeResponse(nil, nil, data, nil)
+            .s3ObjectResponseSerializer().serialize(nil, nil, data, nil)
         
         // then
         expect(result.error as NSError?).to(equal(expectedError))
@@ -238,7 +247,7 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         
         // when
         let result: Result<MockResponseObject> = DataRequest
-            .s3ObjectResponseSerializer().serializeResponse(nil, nil, data, previousError)
+            .s3ObjectResponseSerializer().serialize(nil, nil, data, previousError)
         
         // then
         expect(result.error as NSError?).to(equal(expectedError))
@@ -253,7 +262,7 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         let expectedError = NSError(domain: "test", code: 0, userInfo: nil)
         
         // when
-        let result = DataRequest.s3MetaDataResponseSerializer().serializeResponse(nil, nil, nil, expectedError)
+        let result = DataRequest.s3MetaDataResponseSerializer().serialize(nil, nil, nil, expectedError)
         
         // then
         expect(result.error as NSError?).to(equal(expectedError))
@@ -261,10 +270,10 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
     
     func test__s3MetaDataResponseSerializer__givenNoError_noResponse_returnsError() {
         // given
-        let expectedErrorCode = AFError.responseSerializationFailed(reason: .inputDataNil)._code
+        let expectedErrorCode = AFError.responseSerializationFailed(reason: .inputDataNilOrZeroLength)._code
         
         // when
-        let result = DataRequest.s3MetaDataResponseSerializer().serializeResponse(nil, nil, nil, nil)
+        let result = DataRequest.s3MetaDataResponseSerializer().serialize(nil, nil, nil, nil)
         
         // then
         expect(result.error?._code).to(equal(expectedErrorCode))
@@ -276,7 +285,7 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         let response = HTTPURLResponse(url: URL(string: "http://www.test.com")!, statusCode: 200, httpVersion: nil, headerFields: headers)
         
         // when
-        let result = DataRequest.s3MetaDataResponseSerializer().serializeResponse(nil, response, nil, nil)
+        let result = DataRequest.s3MetaDataResponseSerializer().serialize(nil, response, nil, nil)
         let metaDataObject = result.value
         
         // then
@@ -290,13 +299,13 @@ class AmazonS3ResponseSerializationTests: XCTestCase {
         
         let userInfo: [String: Any] = [NSLocalizedFailureReasonErrorKey: failureReason]
         let expectedError = NSError(domain: S3Error.Domain,
-                                    code: AFError.responseSerializationFailed(reason: .inputDataNil)._code,
+                                    code: AFError.responseSerializationFailed(reason: .inputDataNilOrZeroLength)._code,
                                     userInfo: userInfo)
         
         let response = HTTPURLResponse(url: URL(string: "http://www.test.com")!, statusCode: 200, httpVersion: nil, headerFields: nil)
         
         // whenS
-        let result = DataRequest.s3MetaDataResponseSerializer().serializeResponse(nil, response, nil, nil)
+        let result = DataRequest.s3MetaDataResponseSerializer().serialize(nil, response, nil, nil)
         
         // then
         expect(result.error as NSError?).to(equal(expectedError))

@@ -23,7 +23,7 @@ class AmazonS3RequestManagerTests: XCTestCase {
     let region = Region.USWest1
     
     let mockURL = URL(string: "http://www.test.com")!
-    let mockDestination: DownloadRequest.DownloadFileDestination = { _, _ in return(URL(string: "http://www.test.com")!, []) }
+    let mockDestination: DownloadRequest.Destination = { _, _ in return(URL(string: "http://www.test.com")!, []) }
     
     override func setUp() {
         super.setUp()
@@ -32,8 +32,7 @@ class AmazonS3RequestManagerTests: XCTestCase {
             region: region,
             accessKey: accessKey,
             secret: secret)
-        
-        sut.requestManager.startRequestsImmediately = false
+        sut.requestManager = Session(startRequestsImmediately: false)
     }
     
     /*
